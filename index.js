@@ -7,13 +7,12 @@
 // ╚═════╝░░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░░░░░░░╚═╝░░░░░╚═╝╚═════╝░░░░░░░░░░╚═╝░░░░╚════╝░
 
 
-// * Project name - SUHAS-MD-V9.
-// * Author - Suhas Pathsindu.
+// * Project name - CeylonAI-.
+// * Author - S.M.B.N.
 // * Team - 🇦🇴★ ͟͞  ͟͞ ̶❮ᓩＣ͔́ʏʙ͕֝́́ᴇʀ〴Ｄ֝֩ʀᴀ֞ͨͬͥɢᴏɴךＯ͕ͩꜰ͑́ꜰɪᴄ͚ͫɪᴀֹ֣֝ʟ❯ ͟͞ ̶ ͟͞★🇦🇴 
 // * Version - 9.0.0
 
 // World Best & Powerfull WhatsApp User Bot in Sri Lanka.
-// Don't Copy My Codes. :(
 
 
 
@@ -47,7 +46,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['🎁 𝘼𝙙𝙙 𝙔𝙤𝙪𝙧 𝙊𝙬𝙣𝙚𝙧 𝙉𝙪𝙢𝙗𝙚𝙧 𝙃𝙚𝙧𝙚.🎁']
+const ownerNumber = ['94783851427']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -67,7 +66,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("💙Connecting SUHAS-MD-V9 WhtasApp Bot...💙");
+console.log("💙Connecting CeylonAI-V9 WhtasApp Bot...💙");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -87,7 +86,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('💕 SUHAS-MD-V9 Bot Connected To WhatsApp Succesfully. 🎉')
+console.log('💕 CeylonAI-V9 Bot Connected To WhatsApp Succesfully. 🎉')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -95,9 +94,9 @@ require("./plugins/" + plugin);
 }
 });
 console.log('Plugins installed successful 🧬✅')
-console.log('💕 SUHAS-MD-V9 ❤')
+console.log('💕 CeylonAI-V9 ❤')
 
-let up = `👋 SUHAS-MD Connected Successful 🤖✅*\n⦁ PREFIX: ${prefix}\n⦁ Main CMD: .menu/.allmenu\n⦁ Bot Main Owner : Suhas Pathsindu\n⦁ Total CMD: 200+\n\n*➟➟➟➟➟➟➟➟➟➟➟➟➟➟➟*\n\n*🏮ꜱᴜʙꜱᴄʀɪʙᴇ ᴜꜱ* ➟https://youtube.com/@suhasbro\n\n*💡ꜰᴏʟʟᴏᴡ ᴜꜱ* ➟https://whatsapp.com/channel/0029VagKNUe96H4IdMbr9f2o\n\n*✨ᴡᴇʙ ꜱɪᴛᴇ* ➠ https://suhas-bro.vercel.app/\n\n*🎉ᴛᴇʟᴇɢʀᴀᴍ* ➠https://t.me/suhasbro\n\n*➟➟➟➟➟➟➟➟➟➟➟➟➟➟➟*\n\n\n*_🗣️Sʜᴇʀᴇ Oᴜʀ YᴏᴜTᴜʙᴇ Cʜᴀɴɴᴇʟ Lɪɴᴋ & WʜᴀᴛꜱAᴘᴘ Cʜᴀɴɴᴇʟ Lɪɴᴋ Wɪᴛʜ Yᴏᴜʀ Fʀɪᴇɴᴅꜱ...💙_*\n\n> *✨ Powered By SUHAS-MD-V9 💞*`;
+let up = `👋 SUHAS-MD Connected Successful 🤖✅*\n⦁ PREFIX: ${prefix}\n⦁ Main CMD: .menu/.allmenu\n⦁ Bot Main Owner : S.M.B.N\n⦁ Total CMD: 200+\n\n*➟➟➟➟➟➟➟➟➟➟➟➟➟➟➟*\n\n*🏮ꜱᴜʙꜱᴄʀɪʙᴇ ᴜꜱ* ➟\n\n*💡ꜰᴏʟʟᴏᴡ ᴜꜱ* \n\n*✨/\n\n*🎉ᴛᴇʟᴇɢʀᴀᴍ* ➠\n\n*➟➟➟➟➟➟➟➟➟➟➟➟➟➟➟*\n\n\n*_🗣️Sʜᴇʀᴇ Oᴜʀ YᴏᴜTᴜʙᴇ Cʜᴀɴɴᴇʟ Lɪɴᴋ & WʜᴀᴛꜱAᴘᴘ Cʜᴀɴɴᴇʟ Lɪɴᴋ Wɪᴛʜ Yᴏᴜʀ Fʀɪᴇɴᴅꜱ...💙_*\n\n> *✨ Powered By CeylonAI-V9 💞*`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/mbP3mpW/20241207-221016.jpg` }, caption: up })
 
@@ -204,7 +203,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("💛 SUHAS-MD-V9 Started. 💛");
+res.send("💛 CeylonAI-V9 Started. 💛");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
